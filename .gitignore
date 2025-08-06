@@ -1,0 +1,59 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+
+# Environment variables
+.env
+
+# IDE & editor settings
+.vscode/
+.idea/
+*.swp
+
+# Compiled files
+*.mo
+*.pyc
+
+# Byte-compiled / optimized / DLL files
+*.pyo
+*.pyd
+.Python
+
+# Distribution / packaging
+build/
+dist/
+eggs/
+.eggs/
+parts/
+sdist/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Deployment
+*.bak
+*.pid
+*.seed
+*.cover
+*.py,cover
+*.log
+.coverage
+htmlcov/
+
+# Docker
+docker-compose.override.yml
