@@ -13,7 +13,7 @@ django-cloudinary-storage>=0.3.0
 channels>=4.0.0
 channels-redis>=4.2.0
 redis>=5.0.1
-celery>=5.3.6
+celery>=5.3.6.
 # Deployment
 gunicorn>=21.2.0
 whitenoise>=6.6.0  # Serve static files in production
@@ -23,4 +23,4 @@ pytest-django>=4.8.0
 flake8>=7.0.0
 black>=24.4.0
 # Optional: Containerization
-docker>=7.0.0
+# docker>=7.0.0
